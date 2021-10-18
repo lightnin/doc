@@ -115,10 +115,8 @@ nano /etc/fstab
 And add this line :
 
 ```bash
-UUID="cea0b7ae-2fbc-4f01-8884-3cb5884c8bb7" /media/storage ext4 defaults,nofail 0 0
+UUID="<paste your partition's UUID in quotes>" /media/storage ext4 defaults,nofail 0 0
 ```
-
-(this line should be adapated according to previous info and choices)
 
 Use Ctrl+X then `y` to save.
 
